@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+    padding-top: 800px;
+    margin: 0;
+    background-color:skyblue;
+    
+
+}
+
+h1 {
+    color: black;
+    line-height: 1.2;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+h2 {
+    color: black;
+    font-family: cursive;
+    font-style: italic;
+    font font-size: 20;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+p {
+    color: brown;
+    max-width: 450px;
+    line-height: 1.3;
+    font-size: 17px;
+    margin: 25px auto;
+    text-align: justify;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Pattaya', sans-serif;
+    color: black;
+}
+
+#welcome {
+    background: linear-gradient(
+    yellow 0%, red 100%);
+    height: 100%;
+    width: 100%;
+    display: table;
+    bottom: 0;
+    top: 50;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: 9;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: #000;
+    text-align: justify;
+}
+
+
+#bio {
+    font-size: 30px;
+    padding: 50px;
+
+
+}
+
+.parralex-inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style:circle;
+    cursor: pointer;
+    font-family: fantasy;
+    position:w;
+    top: 0px;
+
+    z-index: 10;
+
+    width: 100%;
+
+}
+
+.link {
+    display:inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    color: skyblue;
+    font-size: 25px;
+    
+}
+
+.link:hover {
+    background-color: aquamarine;
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
+
+#apps {
+    width: 100%;
+
+
+}
+
+#games {
+
+   
+    width: 100%;
+
+}
+
+img:hover {
+    transform: scale(0.9);
+
+}
+
+img {
+    transition: transform .2s;
+}
+
+#chatbot {
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow:2px 2px gainsboro;
+}
+#writtings{
+    font-size: 50;
+    
+}
+.my_nav_bar{
+    position: sticky;
+    top:0;
+    z-index:9999;
+}
